@@ -11,7 +11,7 @@ public class RoomSceneManager : MonoBehaviour
 
     public void OnClickStartGame()
     {
-        SceneManager.LoadScene("GameScene");
+        SceneManager.LoadScene("Minigame1_GameScene");
     }
 
     public void OnClickLeaveRoom()
