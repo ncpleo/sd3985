@@ -60,7 +60,7 @@ public class Minigame1_PlayerController : MonoBehaviour
                 _transform.position += Vector3.right * speed * Time.deltaTime;
                 
             }
-            if (Input.GetKeyDown(KeyCode.Q))
+            if (Input.GetKeyDown(KeyCode.W))
             {
                 if (jumpAbility > 0)
                 {
@@ -72,17 +72,17 @@ public class Minigame1_PlayerController : MonoBehaviour
 
         if (playerID == 2)
         {
-            if (Input.GetKey(KeyCode.J))
+            if (Input.GetKey(KeyCode.V))
             {
                 _transform.position += Vector3.left * speed * Time.deltaTime;
 
             }
-            if (Input.GetKey(KeyCode.L))
+            if (Input.GetKey(KeyCode.B))
             {
                 _transform.position += Vector3.right * speed * Time.deltaTime;
 
             }
-            if (Input.GetKeyDown(KeyCode.W))
+            if (Input.GetKeyDown(KeyCode.Space))
             {
                 if (jumpAbility > 0)
                 {
@@ -104,7 +104,7 @@ public class Minigame1_PlayerController : MonoBehaviour
                 _transform.position += Vector3.right * speed * Time.deltaTime;
 
             }
-            if (Input.GetKeyDown(KeyCode.E))
+            if (Input.GetKeyDown(KeyCode.I))
             {
                 if (jumpAbility > 0)
                 {
@@ -116,17 +116,17 @@ public class Minigame1_PlayerController : MonoBehaviour
 
         if (playerID == 4)
         {
-            if (Input.GetKey(KeyCode.J))
+            if (Input.GetKey(KeyCode.LeftArrow))
             {
                 _transform.position += Vector3.left * speed * Time.deltaTime;
 
             }
-            if (Input.GetKey(KeyCode.L))
+            if (Input.GetKey(KeyCode.RightArrow))
             {
                 _transform.position += Vector3.right * speed * Time.deltaTime;
 
             }
-            if (Input.GetKeyDown(KeyCode.R))
+            if (Input.GetKeyDown(KeyCode.UpArrow))
             {
                 if (jumpAbility > 0)
                 {
